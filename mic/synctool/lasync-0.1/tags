@@ -1,0 +1,106 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BACKLOG	./lib/constants.h	/^const int BACKLOG = 10;$/;"	v
+CXXFLAGS	./Makefile	/^CXXFLAGS = -Wno-write-strings -Wno-format-security$/;"	m
+DEST	./Makefile	/^DEST = $(prefix)\/opt\/lasync$/;"	m
+LACmdUtils	./lib/cmdutils.h	/^class LACmdUtils$/;"	c
+LAConfigParser	./lib/configparser.cpp	/^LAConfigParser::LAConfigParser(char* path)$/;"	f	class:LAConfigParser
+LAConfigParser	./lib/configparser.cpp	/^LAConfigParser::LAConfigParser(std::string path)$/;"	f	class:LAConfigParser
+LAConfigParser	./lib/configparser.h	/^class LAConfigParser$/;"	c
+LADirectoryCanNotReadException	./lib/exception.cpp	/^LADirectoryCanNotReadException::LADirectoryCanNotReadException(char* path)$/;"	f	class:LADirectoryCanNotReadException
+LADirectoryCanNotReadException	./lib/exception.cpp	/^LADirectoryCanNotReadException::LADirectoryCanNotReadException(std::string path)$/;"	f	class:LADirectoryCanNotReadException
+LADirectoryCanNotReadException	./lib/exception.h	/^class LADirectoryCanNotReadException: public LAException$/;"	c
+LADirectoryOpenException	./lib/exception.cpp	/^LADirectoryOpenException::LADirectoryOpenException(char* path)$/;"	f	class:LADirectoryOpenException
+LADirectoryOpenException	./lib/exception.cpp	/^LADirectoryOpenException::LADirectoryOpenException(std::string path)$/;"	f	class:LADirectoryOpenException
+LADirectoryOpenException	./lib/exception.h	/^class LADirectoryOpenException: public LAException$/;"	c
+LADuplicateKeyException	./lib/exception.cpp	/^LADuplicateKeyException::LADuplicateKeyException(std::string key)$/;"	f	class:LADuplicateKeyException
+LADuplicateKeyException	./lib/exception.h	/^class LADuplicateKeyException: public LAException$/;"	c
+LAException	./lib/exception.h	/^class LAException$/;"	c
+LAFileNotFoundException	./lib/exception.cpp	/^LAFileNotFoundException::LAFileNotFoundException(char* path)$/;"	f	class:LAFileNotFoundException
+LAFileNotFoundException	./lib/exception.cpp	/^LAFileNotFoundException::LAFileNotFoundException(std::string path)$/;"	f	class:LAFileNotFoundException
+LAFileNotFoundException	./lib/exception.h	/^class LAFileNotFoundException: public LAException$/;"	c
+LAFsUtils	./lib/fsutils.h	/^class LAFsUtils$/;"	c
+LAKeyNotFoundException	./lib/exception.cpp	/^LAKeyNotFoundException::LAKeyNotFoundException(std::string key)$/;"	f	class:LAKeyNotFoundException
+LAKeyNotFoundException	./lib/exception.h	/^class LAKeyNotFoundException: public LAException$/;"	c
+LAMsg	./lib/netutils.h	/^struct LAMsg$/;"	s
+LANetUtils	./lib/netutils.h	/^class LANetUtils$/;"	c
+LANfsUtils	./lib/nfsutils.h	/^class LANfsUtils$/;"	c
+LASingletonTemplateBase	./lib/singletontemplate.h	/^        LASingletonTemplateBase()$/;"	f	class:LASingletonTemplateBase
+LASingletonTemplateBase	./lib/singletontemplate.h	/^class LASingletonTemplateBase $/;"	c
+LAStrUtils	./lib/strutils.h	/^class LAStrUtils$/;"	c
+PORT	./lib/constants.h	/^const int PORT = 32888;$/;"	v
+PREFIX	./debian/rules	/^PREFIX = $(CURDIR)\/debian\/lasync\/$/;"	m
+RPMNAME	./Makefile	/^RPMNAME=lasync-0.1-1.x86_64$/;"	m
+__CMD_UTILS_HEADER__	./lib/cmdutils.h	2;"	d
+__CONFIG_PARSER_HEADER__	./lib/configparser.h	2;"	d
+__CONSTANTS_HEADER__	./lib/constants.h	2;"	d
+__EXCEPTION_HEADER__	./lib/exception.h	2;"	d
+__LANFSUTILS_HEADER___	./lib/nfsutils.h	2;"	d
+__LASINGLETON_HEADER__	./lib/singletontemplate.h	4;"	d
+__NET_UTILS_HEADER__	./lib/netutils.h	2;"	d
+__STR_UTILS_HEADER__	./lib/strutils.h	2;"	d
+__UTILS_HEADER__	./lib/fsutils.h	2;"	d
+build_msg	./lib/netutils.cpp	/^void* LANetUtils::build_msg(const std::string& src_ip, const std::string& dest, $/;"	f	class:LANetUtils
+cmd	./lib/netutils.h	/^    int cmd;$/;"	m	struct:LAMsg
+config_nfs	./lib/nfsutils.cpp	/^bool LANfsUtils::config_nfs(const std::string nfsdir,$/;"	f	class:LANfsUtils
+create_daemon_socket	./lib/netutils.cpp	/^int LANetUtils::create_daemon_socket()$/;"	f	class:LANetUtils
+create_instance	./lib/configparser.cpp	/^LAConfigParser* LAConfigParser::create_instance(const char* conf)$/;"	f	class:LAConfigParser
+create_temp_dir	./lib/fsutils.cpp	/^bool LAFsUtils::create_temp_dir(const char* prefix, std::string& tempdir)$/;"	f	class:LAFsUtils
+endswith	./lib/strutils.cpp	/^bool LAStrUtils::endswith(const char* str, const char* end)$/;"	f	class:LAStrUtils
+exists	./lib/fsutils.cpp	/^bool LAFsUtils::exists(const char* path)$/;"	f	class:LAFsUtils
+export_nfs	./lib/nfsutils.cpp	/^bool LANfsUtils::export_nfs(const std::string& nfsdir)$/;"	f	class:LANfsUtils
+extract_msg	./lib/netutils.cpp	/^int LANetUtils::extract_msg(const void* msg, std::string& src_ip, $/;"	f	class:LANetUtils
+get_instance_ptr	./lib/singletontemplate.h	/^        static T* get_instance_ptr()$/;"	f	class:LASingletonTemplateBase
+get_instance_ref	./lib/singletontemplate.h	/^        static T& get_instance_ref()$/;"	f	class:LASingletonTemplateBase
+get_local_hostname	./lib/netutils.cpp	/^int LANetUtils::get_local_hostname(std::string& hostname)$/;"	f	class:LANetUtils
+get_nic_info	./lib/netutils.cpp	/^int LANetUtils::get_nic_info(const char* nic_name, std::string& ip, std::string& broadcast)$/;"	f	class:LANetUtils
+host_list_len	./lib/netutils.h	/^    int host_list_len;$/;"	m	struct:LAMsg
+in_list	./lib/strutils.cpp	/^bool LAStrUtils::in_list(const std::string& src, const std::string& key)$/;"	f	class:LAStrUtils
+info	./lib/exception.h	/^        std::string info;$/;"	m	class:LADirectoryCanNotReadException
+info	./lib/exception.h	/^        std::string info;$/;"	m	class:LADirectoryOpenException
+info	./lib/exception.h	/^        std::string info;$/;"	m	class:LADuplicateKeyException
+info	./lib/exception.h	/^        std::string info;$/;"	m	class:LAFileNotFoundException
+info	./lib/exception.h	/^        std::string info;$/;"	m	class:LAKeyNotFoundException
+is_nfs_exported	./lib/nfsutils.cpp	/^bool LANfsUtils::is_nfs_exported(const std::string& nfsdir)$/;"	f	class:LANfsUtils
+is_nfs_mounted	./lib/nfsutils.cpp	/^bool LANfsUtils::is_nfs_mounted(const std::string& nfsdir, std::string& mp)$/;"	f	class:LANfsUtils
+isdirectory	./lib/fsutils.cpp	/^bool LAFsUtils::isdirectory(const char* path)$/;"	f	class:LAFsUtils
+isdirectory_exists	./lib/fsutils.cpp	/^bool LAFsUtils::isdirectory_exists(const char* path)$/;"	f	class:LAFsUtils
+isfile	./lib/fsutils.cpp	/^bool LAFsUtils::isfile(const char* path)$/;"	f	class:LAFsUtils
+key_value_map	./lib/configparser.h	/^        std::map<std::string, std::string>* key_value_map;$/;"	m	class:LAConfigParser
+lines	./lib/configparser.h	/^        vector<std::string>* lines;$/;"	m	class:LAConfigParser
+main	./main.cpp	/^int main(int argc, char** argv)$/;"	f
+map_has_key	./lib/configparser.cpp	/^bool LAConfigParser::map_has_key(std::map<std::string, std::string>* map_ptr, std::string key)$/;"	f	class:LAConfigParser
+mount_nfs	./lib/nfsutils.cpp	/^bool LANfsUtils::mount_nfs(const std::string& nfsdir, const std::string& dest)$/;"	f	class:LANfsUtils
+parse_args	./lib/cmdutils.cpp	/^int LACmdUtils::parse_args(int argc, char** argv, char* args, int& cmd, std::string& dest)$/;"	f	class:LACmdUtils
+path	./lib/configparser.h	/^        std::string path;$/;"	m	class:LAConfigParser
+prefix	./Makefile	/^prefix = \/$/;"	m
+read_all	./lib/configparser.cpp	/^map<std::string, std::string>* LAConfigParser::read_all()$/;"	f	class:LAConfigParser
+read_config	./lib/configparser.cpp	/^void LAConfigParser::read_config()$/;"	f	class:LAConfigParser
+read_plugin_dir	./lib/configparser.cpp	/^const char* LAConfigParser::read_plugin_dir()$/;"	f	class:LAConfigParser
+read_value	./lib/configparser.cpp	/^const char* LAConfigParser::read_value(char* key)$/;"	f	class:LAConfigParser
+realpath	./lib/fsutils.cpp	/^bool LAFsUtils::realpath(const char* path, std::string& realpath)$/;"	f	class:LAFsUtils
+remove_instance	./lib/singletontemplate.h	/^        static void remove_instance()$/;"	f	class:LASingletonTemplateBase
+self_len	./lib/netutils.h	/^    int self_len;$/;"	m	struct:LAMsg
+send_msg	./lib/netutils.cpp	/^int LANetUtils::send_msg(void* msg, const std::string& deststr, $/;"	f	class:LANetUtils
+show_exported_nfs	./lib/nfsutils.cpp	/^void LANfsUtils::show_exported_nfs()$/;"	f	class:LANfsUtils
+sm_instance	./lib/singletontemplate.h	/^        static T* sm_instance;$/;"	m	class:LASingletonTemplateBase
+sm_instance	./lib/singletontemplate.h	/^T* LASingletonTemplateBase<T>::sm_instance = 0;$/;"	m	class:LASingletonTemplateBase
+split	./lib/strutils.cpp	/^bool LAStrUtils::split(const std::string& str, std::vector<std::string>& ret, $/;"	f	class:LAStrUtils
+src	./lib/netutils.h	/^    struct in_addr src;$/;"	m	struct:LAMsg	typeref:struct:LAMsg::in_addr
+startswith	./lib/strutils.cpp	/^bool LAStrUtils::startswith(const char* str, const char* start)$/;"	f	class:LAStrUtils
+tag	./lib/netutils.h	/^    char tag[0];$/;"	m	struct:LAMsg
+trim	./lib/strutils.cpp	/^bool LAStrUtils::trim(const std::string& line, std::string& ret)$/;"	f	class:LAStrUtils
+umount_nfs	./lib/nfsutils.cpp	/^bool LANfsUtils::umount_nfs(const std::string& dest)$/;"	f	class:LANfsUtils
+usage	./lib/cmdutils.cpp	/^void LACmdUtils::usage()$/;"	f	class:LACmdUtils
+~LAConfigParser	./lib/configparser.cpp	/^LAConfigParser::~LAConfigParser()$/;"	f	class:LAConfigParser
+~LADirectoryCanNotReadException	./lib/exception.h	/^        virtual ~LADirectoryCanNotReadException(){};$/;"	f	class:LADirectoryCanNotReadException
+~LADirectoryOpenException	./lib/exception.h	/^        virtual ~LADirectoryOpenException(){};$/;"	f	class:LADirectoryOpenException
+~LADuplicateKeyException	./lib/exception.h	/^        virtual ~LADuplicateKeyException(){};$/;"	f	class:LADuplicateKeyException
+~LAException	./lib/exception.h	/^        virtual ~LAException(){};$/;"	f	class:LAException
+~LAFileNotFoundException	./lib/exception.h	/^        virtual ~LAFileNotFoundException(){};$/;"	f	class:LAFileNotFoundException
+~LAKeyNotFoundException	./lib/exception.h	/^        virtual ~LAKeyNotFoundException(){};$/;"	f	class:LAKeyNotFoundException
+~LASingletonTemplateBase	./lib/singletontemplate.h	/^        virtual ~LASingletonTemplateBase()$/;"	f	class:LASingletonTemplateBase

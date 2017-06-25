@@ -1,0 +1,15 @@
+Source: ladaemon
+Section: admin
+Priority: extra
+Maintainer: root <naughtyboywx@yeah.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://www.laworks.com.cn
+#Vcs-Git: git://git.debian.org/collab-maint/ladaemon.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/ladaemon.git;a=summary
+
+Package: ladaemon
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: system management tools
+    this is a test tools for synchronize files and package in LAN 
